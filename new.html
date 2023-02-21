@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="root">
+    <div>
+      <h2>밀키스</h2>
+      <p>900</p>
+    </div>
+    <div>
+      <h2>코카콜라</h2>
+      <p>2800</p>
+    </div>
+    <div>
+      <h2>원장님 조르기</h2>
+      <p>0</p>
+    </div>
+  </div>
+  <script>
+    // let numberVar = 10;//dataType이 숫자
+    // let stringVar = "10";//dataType이 문자, 일영
+    // console.log(numberVar+stringVar)
+
+    // let name = "park"
+    // let sentence = "안녕하세요 "+"저는 "+20+"살의 "+name+" 입니다."
+    // console.log(sentence)
+
+    // let kim = {
+    //   a:"김은아",
+    //   b:"김동주",
+    //   C:"김동윤",
+    //   D:"김지섭",
+    //   E:"김형진"
+    // }
+    // console.log(kim)
+    // let rootDiv = document.getElementById('root')
+    // console.dir(rootDiv)
+    // ---------------3교시---------------
+    let itsMe = {
+      name : "ParkDajJae",
+      age : 34,
+      job : "developer",
+      address : "oracle",
+      sister : "1명",
+      favgame : "LostArk",
+      favmovie : "action, SF",
+      hobby : {
+        first : "coding",
+        second : "game"
+      }
+    }
+    console.log(itsMe.name);
+    console.log(itsMe["name"])
+    console.log(itsMe.hobby.first);
+    console.log(itsMe["hobby"]["second"])
+
+  </script>
+</body>
+</html>
